@@ -107,10 +107,6 @@ section {
     display: block;
 }
 
-body {
-    line-height: 1;
-}
-
 ol,
 ul {
     list-style: none;
@@ -151,6 +147,8 @@ body {
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
+    line-height: 1;
+    overflow: hidden;
 }
 
 .panel {
